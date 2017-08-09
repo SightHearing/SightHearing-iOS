@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057F46E9834ED062B13F286F /* Pods_SightHearingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DFC47451AC20627325EA5 /* Pods_SightHearingTests.framework */; };
+		6300B0E06CE0B435FFA004AB /* Pods_SightHearing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C824AFE2A6D45DCB0E1A4E /* Pods_SightHearing.framework */; };
+		9A65F7B31F3AF24C009E80CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7B21F3AF24C009E80CB /* AppDelegate.swift */; };
+		9A65F7B51F3AF24C009E80CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7B41F3AF24C009E80CB /* ViewController.swift */; };
+		9A65F7B81F3AF24C009E80CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7B61F3AF24C009E80CB /* Main.storyboard */; };
+		9A65F7BA1F3AF24C009E80CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7B91F3AF24C009E80CB /* Assets.xcassets */; };
+		9A65F7BD1F3AF24C009E80CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7BB1F3AF24C009E80CB /* LaunchScreen.storyboard */; };
+		9A65F7C81F3AF24C009E80CB /* SightHearingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7C71F3AF24C009E80CB /* SightHearingTests.swift */; };
+		9A65F7D91F3AF38A009E80CB /* loginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7D81F3AF38A009E80CB /* loginView.xib */; };
+		9A65F7DB1F3AF3A2009E80CB /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7DA1F3AF3A2009E80CB /* loginView.swift */; };
+		9A65F7DD1F3AF3F5009E80CB /* signUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7DC1F3AF3F5009E80CB /* signUpView.xib */; };
+		9A65F7DF1F3AF406009E80CB /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7DE1F3AF406009E80CB /* signUpView.swift */; };
+		9A65F7E11F3AF44A009E80CB /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E01F3AF44A009E80CB /* loginViewController.swift */; };
+		9A65F7E31F3AF45E009E80CB /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E21F3AF45E009E80CB /* signUpViewController.swift */; };
+		9A65F7E61F3AF67C009E80CB /* splashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7E51F3AF67C009E80CB /* splashView.xib */; };
+		9A65F7E81F3AF691009E80CB /* splashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E71F3AF691009E80CB /* splashView.swift */; };
+		9A65F7EA1F3AF6CC009E80CB /* splashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E91F3AF6CC009E80CB /* splashViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A65F7C41F3AF24C009E80CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A65F7A71F3AF24C009E80CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A65F7AE1F3AF24C009E80CB;
+			remoteInfo = SightHearing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F7DFC47451AC20627325EA5 /* Pods_SightHearingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightHearingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40768E951D2336C228AAA5F5 /* Pods-SightHearingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightHearingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SightHearingTests/Pods-SightHearingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42724C565CCDCFE60F71A2C6 /* Pods-SightHearing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightHearing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SightHearing/Pods-SightHearing.debug.xcconfig"; sourceTree = "<group>"; };
+		44C824AFE2A6D45DCB0E1A4E /* Pods_SightHearing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightHearing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490D408606AC3877CFFF7CC3 /* Pods-SightHearingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightHearingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SightHearingTests/Pods-SightHearingTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F6AE166EE263E3C62665906 /* Pods-SightHearing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightHearing.release.xcconfig"; path = "Pods/Target Support Files/Pods-SightHearing/Pods-SightHearing.release.xcconfig"; sourceTree = "<group>"; };
+		9A65F7AF1F3AF24C009E80CB /* SightHearing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SightHearing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A65F7B21F3AF24C009E80CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A65F7B41F3AF24C009E80CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A65F7B71F3AF24C009E80CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A65F7B91F3AF24C009E80CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A65F7BC1F3AF24C009E80CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A65F7BE1F3AF24C009E80CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A65F7C31F3AF24C009E80CB /* SightHearingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightHearingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A65F7C71F3AF24C009E80CB /* SightHearingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightHearingTests.swift; sourceTree = "<group>"; };
+		9A65F7C91F3AF24C009E80CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A65F7D81F3AF38A009E80CB /* loginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginView.xib; sourceTree = "<group>"; };
+		9A65F7DA1F3AF3A2009E80CB /* loginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		9A65F7DC1F3AF3F5009E80CB /* signUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = signUpView.xib; sourceTree = "<group>"; };
+		9A65F7DE1F3AF406009E80CB /* signUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
+		9A65F7E01F3AF44A009E80CB /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		9A65F7E21F3AF45E009E80CB /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		9A65F7E51F3AF67C009E80CB /* splashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = splashView.xib; sourceTree = "<group>"; };
+		9A65F7E71F3AF691009E80CB /* splashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = splashView.swift; sourceTree = "<group>"; };
+		9A65F7E91F3AF6CC009E80CB /* splashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = splashViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A65F7AC1F3AF24C009E80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6300B0E06CE0B435FFA004AB /* Pods_SightHearing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A65F7C01F3AF24C009E80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057F46E9834ED062B13F286F /* Pods_SightHearingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D64FE49074CADC8767A4ADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42724C565CCDCFE60F71A2C6 /* Pods-SightHearing.debug.xcconfig */,
+				7F6AE166EE263E3C62665906 /* Pods-SightHearing.release.xcconfig */,
+				40768E951D2336C228AAA5F5 /* Pods-SightHearingTests.debug.xcconfig */,
+				490D408606AC3877CFFF7CC3 /* Pods-SightHearingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89ABDFFA4D27C11D8086A190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44C824AFE2A6D45DCB0E1A4E /* Pods_SightHearing.framework */,
+				2F7DFC47451AC20627325EA5 /* Pods_SightHearingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A65F7A61F3AF24C009E80CB = {
+			isa = PBXGroup;
+			children = (
+				9A65F7B11F3AF24C009E80CB /* SightHearing */,
+				9A65F7C61F3AF24C009E80CB /* SightHearingTests */,
+				9A65F7B01F3AF24C009E80CB /* Products */,
+				7D64FE49074CADC8767A4ADD /* Pods */,
+				89ABDFFA4D27C11D8086A190 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A65F7B01F3AF24C009E80CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7AF1F3AF24C009E80CB /* SightHearing.app */,
+				9A65F7C31F3AF24C009E80CB /* SightHearingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A65F7B11F3AF24C009E80CB /* SightHearing */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7D21F3AF28D009E80CB /* model */,
+				9A65F7D51F3AF2AE009E80CB /* viewController */,
+				9A65F7D31F3AF295009E80CB /* view */,
+				9A65F7B21F3AF24C009E80CB /* AppDelegate.swift */,
+				9A65F7B41F3AF24C009E80CB /* ViewController.swift */,
+				9A65F7B61F3AF24C009E80CB /* Main.storyboard */,
+				9A65F7B91F3AF24C009E80CB /* Assets.xcassets */,
+				9A65F7BB1F3AF24C009E80CB /* LaunchScreen.storyboard */,
+				9A65F7BE1F3AF24C009E80CB /* Info.plist */,
+			);
+			path = SightHearing;
+			sourceTree = "<group>";
+		};
+		9A65F7C61F3AF24C009E80CB /* SightHearingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7C71F3AF24C009E80CB /* SightHearingTests.swift */,
+				9A65F7C91F3AF24C009E80CB /* Info.plist */,
+			);
+			path = SightHearingTests;
+			sourceTree = "<group>";
+		};
+		9A65F7D21F3AF28D009E80CB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		9A65F7D31F3AF295009E80CB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7E41F3AF664009E80CB /* splashView */,
+				9A65F7D71F3AF307009E80CB /* loginView */,
+				9A65F7D61F3AF300009E80CB /* signUpView */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		9A65F7D51F3AF2AE009E80CB /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7E01F3AF44A009E80CB /* loginViewController.swift */,
+				9A65F7E21F3AF45E009E80CB /* signUpViewController.swift */,
+				9A65F7E91F3AF6CC009E80CB /* splashViewController.swift */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		9A65F7D61F3AF300009E80CB /* signUpView */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7DC1F3AF3F5009E80CB /* signUpView.xib */,
+				9A65F7DE1F3AF406009E80CB /* signUpView.swift */,
+			);
+			name = signUpView;
+			sourceTree = "<group>";
+		};
+		9A65F7D71F3AF307009E80CB /* loginView */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7D81F3AF38A009E80CB /* loginView.xib */,
+				9A65F7DA1F3AF3A2009E80CB /* loginView.swift */,
+			);
+			name = loginView;
+			sourceTree = "<group>";
+		};
+		9A65F7E41F3AF664009E80CB /* splashView */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7E51F3AF67C009E80CB /* splashView.xib */,
+				9A65F7E71F3AF691009E80CB /* splashView.swift */,
+			);
+			name = splashView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A65F7AE1F3AF24C009E80CB /* SightHearing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A65F7CC1F3AF24C009E80CB /* Build configuration list for PBXNativeTarget "SightHearing" */;
+			buildPhases = (
+				63E31990A8964F18F86E7267 /* [CP] Check Pods Manifest.lock */,
+				9A65F7AB1F3AF24C009E80CB /* Sources */,
+				9A65F7AC1F3AF24C009E80CB /* Frameworks */,
+				9A65F7AD1F3AF24C009E80CB /* Resources */,
+				9CB6D3D6EC7A3EBDD9395AAF /* [CP] Embed Pods Frameworks */,
+				A20F0345A488D6548A43C8FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SightHearing;
+			productName = SightHearing;
+			productReference = 9A65F7AF1F3AF24C009E80CB /* SightHearing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A65F7C21F3AF24C009E80CB /* SightHearingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A65F7CF1F3AF24C009E80CB /* Build configuration list for PBXNativeTarget "SightHearingTests" */;
+			buildPhases = (
+				E67BFD1EE7C0B6D75977E9F1 /* [CP] Check Pods Manifest.lock */,
+				9A65F7BF1F3AF24C009E80CB /* Sources */,
+				9A65F7C01F3AF24C009E80CB /* Frameworks */,
+				9A65F7C11F3AF24C009E80CB /* Resources */,
+				B496D8F531150A270056C651 /* [CP] Embed Pods Frameworks */,
+				65E4DB7C94D1755DD395D2F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A65F7C51F3AF24C009E80CB /* PBXTargetDependency */,
+			);
+			name = SightHearingTests;
+			productName = SightHearingTests;
+			productReference = 9A65F7C31F3AF24C009E80CB /* SightHearingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A65F7A71F3AF24C009E80CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yonni Luu";
+				TargetAttributes = {
+					9A65F7AE1F3AF24C009E80CB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9A65F7C21F3AF24C009E80CB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A65F7AE1F3AF24C009E80CB;
+					};
+				};
+			};
+			buildConfigurationList = 9A65F7AA1F3AF24C009E80CB /* Build configuration list for PBXProject "SightHearing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A65F7A61F3AF24C009E80CB;
+			productRefGroup = 9A65F7B01F3AF24C009E80CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A65F7AE1F3AF24C009E80CB /* SightHearing */,
+				9A65F7C21F3AF24C009E80CB /* SightHearingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A65F7AD1F3AF24C009E80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A65F7BD1F3AF24C009E80CB /* LaunchScreen.storyboard in Resources */,
+				9A65F7BA1F3AF24C009E80CB /* Assets.xcassets in Resources */,
+				9A65F7D91F3AF38A009E80CB /* loginView.xib in Resources */,
+				9A65F7E61F3AF67C009E80CB /* splashView.xib in Resources */,
+				9A65F7DD1F3AF3F5009E80CB /* signUpView.xib in Resources */,
+				9A65F7B81F3AF24C009E80CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A65F7C11F3AF24C009E80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63E31990A8964F18F86E7267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SightHearing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65E4DB7C94D1755DD395D2F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SightHearingTests/Pods-SightHearingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB6D3D6EC7A3EBDD9395AAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SightHearing/Pods-SightHearing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20F0345A488D6548A43C8FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SightHearing/Pods-SightHearing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B496D8F531150A270056C651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SightHearingTests/Pods-SightHearingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67BFD1EE7C0B6D75977E9F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SightHearingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A65F7AB1F3AF24C009E80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A65F7DF1F3AF406009E80CB /* signUpView.swift in Sources */,
+				9A65F7B51F3AF24C009E80CB /* ViewController.swift in Sources */,
+				9A65F7E31F3AF45E009E80CB /* signUpViewController.swift in Sources */,
+				9A65F7E81F3AF691009E80CB /* splashView.swift in Sources */,
+				9A65F7DB1F3AF3A2009E80CB /* loginView.swift in Sources */,
+				9A65F7B31F3AF24C009E80CB /* AppDelegate.swift in Sources */,
+				9A65F7E11F3AF44A009E80CB /* loginViewController.swift in Sources */,
+				9A65F7EA1F3AF6CC009E80CB /* splashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A65F7BF1F3AF24C009E80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A65F7C81F3AF24C009E80CB /* SightHearingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A65F7C51F3AF24C009E80CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A65F7AE1F3AF24C009E80CB /* SightHearing */;
+			targetProxy = 9A65F7C41F3AF24C009E80CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A65F7B61F3AF24C009E80CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A65F7B71F3AF24C009E80CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A65F7BB1F3AF24C009E80CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A65F7BC1F3AF24C009E80CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A65F7CA1F3AF24C009E80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A65F7CB1F3AF24C009E80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A65F7CD1F3AF24C009E80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42724C565CCDCFE60F71A2C6 /* Pods-SightHearing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SightHearing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonniluu.SightHearing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A65F7CE1F3AF24C009E80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6AE166EE263E3C62665906 /* Pods-SightHearing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SightHearing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonniluu.SightHearing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A65F7D01F3AF24C009E80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40768E951D2336C228AAA5F5 /* Pods-SightHearingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SightHearingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonniluu.SightHearingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightHearing.app/SightHearing";
+			};
+			name = Debug;
+		};
+		9A65F7D11F3AF24C009E80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490D408606AC3877CFFF7CC3 /* Pods-SightHearingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SightHearingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonniluu.SightHearingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightHearing.app/SightHearing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A65F7AA1F3AF24C009E80CB /* Build configuration list for PBXProject "SightHearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A65F7CA1F3AF24C009E80CB /* Debug */,
+				9A65F7CB1F3AF24C009E80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A65F7CC1F3AF24C009E80CB /* Build configuration list for PBXNativeTarget "SightHearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A65F7CD1F3AF24C009E80CB /* Debug */,
+				9A65F7CE1F3AF24C009E80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A65F7CF1F3AF24C009E80CB /* Build configuration list for PBXNativeTarget "SightHearingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A65F7D01F3AF24C009E80CB /* Debug */,
+				9A65F7D11F3AF24C009E80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A65F7A71F3AF24C009E80CB /* Project object */;
+}

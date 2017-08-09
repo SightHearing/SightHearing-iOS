@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437AECC8F05232A0DB15FECC4283772B /* Pods-SightHearing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2CDF85FC03FDCA62C639A4BEA2ACF0 /* Pods-SightHearing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B8FA53CBC7EACCEC38B5FB27ADAF9A /* Pods-SightHearingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF3892A471595CF39EC20CB8F9DA06B /* Pods-SightHearingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97E475CF32164D187817CF7EE55E7313 /* Pods-SightHearingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49502129B13A677DA4791A9FAA03F065 /* Pods-SightHearingTests-dummy.m */; };
+		A4EE6680C7BC80256A8EB28878EE639E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A7848E81A8C06BA4F4047B7B2E35A2A5 /* Pods-SightHearing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3D228406ABE5BE3C93DB81A6DC3ACD /* Pods-SightHearing-dummy.m */; };
+		ADEC1956A4884E66AB965C175673B988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04CA37761842DAE8B2184DC1FADA5C5D /* Pods-SightHearingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SightHearingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09B66DAB24BE9A260B4BBDBD785FD1A2 /* Pods_SightHearing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SightHearing.framework; path = "Pods-SightHearing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B373A44843CC8F3BEF852BEC6B75283 /* Pods-SightHearing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SightHearing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1173BFECBB014590FFC5A96F1DFFC467 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1812DA0CD6383087C14D2B3B1C115AF2 /* Pods_SightHearingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SightHearingTests.framework; path = "Pods-SightHearingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEF2F7F4F34DFE1AAFC7F4087AE4ED5 /* Pods-SightHearingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SightHearingTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DF0EB057CC40A611EC474629F2E83D8 /* Pods-SightHearing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SightHearing-frameworks.sh"; sourceTree = "<group>"; };
+		3FD58991AFCB4502F270AACFE161BBB6 /* Pods-SightHearing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SightHearing.debug.xcconfig"; sourceTree = "<group>"; };
+		49502129B13A677DA4791A9FAA03F065 /* Pods-SightHearingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SightHearingTests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		782EF191EAE3091BF8C32386A5DF6CCA /* Pods-SightHearingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SightHearingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80881633D532C0AA72F2C41F229370BF /* Pods-SightHearingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SightHearingTests-frameworks.sh"; sourceTree = "<group>"; };
+		893B137CDB287482920AA7CF1C1ACA0D /* Pods-SightHearing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SightHearing-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98DC75FE8F2B091DEE8E70F3385F97C6 /* Pods-SightHearingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SightHearingTests-resources.sh"; sourceTree = "<group>"; };
+		A11B58013AEF6A53C2E689A715DFBD0B /* Pods-SightHearing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SightHearing.modulemap"; sourceTree = "<group>"; };
+		A55D789E7A80D95A607DE14BA3C43834 /* Pods-SightHearingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SightHearingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B079E89DEAB284673A3E883B0118DCA2 /* Pods-SightHearingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SightHearingTests.modulemap"; sourceTree = "<group>"; };
+		BFF3892A471595CF39EC20CB8F9DA06B /* Pods-SightHearingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SightHearingTests-umbrella.h"; sourceTree = "<group>"; };
+		C1C93751626A53DEDCDA59B3B55101BC /* Pods-SightHearing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SightHearing.release.xcconfig"; sourceTree = "<group>"; };
+		C6B95D2FE50EAA15F7BBC7CFF36A2EF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2CDF85FC03FDCA62C639A4BEA2ACF0 /* Pods-SightHearing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SightHearing-umbrella.h"; sourceTree = "<group>"; };
+		DB3D228406ABE5BE3C93DB81A6DC3ACD /* Pods-SightHearing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SightHearing-dummy.m"; sourceTree = "<group>"; };
+		F1D3C0D19A7CB513F0338C541E6E6EDB /* Pods-SightHearing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SightHearing-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBB3D307C257978C3D7648EF198C909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEC1956A4884E66AB965C175673B988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ABDB8FD20493D9D200A7EF61DE9CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EE6680C7BC80256A8EB28878EE639E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26ABA5B800B4D384EC74BB391C46CB5A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73DE440DBFE50035C79053DA02C64346 /* Pods-SightHearing */,
+				79B8BDFB5BA00EBA2CA440380A9C6494 /* Pods-SightHearingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45BE114B4C4E43D13AE9EC3CF000108D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B66DAB24BE9A260B4BBDBD785FD1A2 /* Pods_SightHearing.framework */,
+				1812DA0CD6383087C14D2B3B1C115AF2 /* Pods_SightHearingTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73DE440DBFE50035C79053DA02C64346 /* Pods-SightHearing */ = {
+			isa = PBXGroup;
+			children = (
+				1173BFECBB014590FFC5A96F1DFFC467 /* Info.plist */,
+				A11B58013AEF6A53C2E689A715DFBD0B /* Pods-SightHearing.modulemap */,
+				0B373A44843CC8F3BEF852BEC6B75283 /* Pods-SightHearing-acknowledgements.markdown */,
+				F1D3C0D19A7CB513F0338C541E6E6EDB /* Pods-SightHearing-acknowledgements.plist */,
+				DB3D228406ABE5BE3C93DB81A6DC3ACD /* Pods-SightHearing-dummy.m */,
+				3DF0EB057CC40A611EC474629F2E83D8 /* Pods-SightHearing-frameworks.sh */,
+				893B137CDB287482920AA7CF1C1ACA0D /* Pods-SightHearing-resources.sh */,
+				DB2CDF85FC03FDCA62C639A4BEA2ACF0 /* Pods-SightHearing-umbrella.h */,
+				3FD58991AFCB4502F270AACFE161BBB6 /* Pods-SightHearing.debug.xcconfig */,
+				C1C93751626A53DEDCDA59B3B55101BC /* Pods-SightHearing.release.xcconfig */,
+			);
+			name = "Pods-SightHearing";
+			path = "Target Support Files/Pods-SightHearing";
+			sourceTree = "<group>";
+		};
+		79B8BDFB5BA00EBA2CA440380A9C6494 /* Pods-SightHearingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B95D2FE50EAA15F7BBC7CFF36A2EF7 /* Info.plist */,
+				B079E89DEAB284673A3E883B0118DCA2 /* Pods-SightHearingTests.modulemap */,
+				A55D789E7A80D95A607DE14BA3C43834 /* Pods-SightHearingTests-acknowledgements.markdown */,
+				782EF191EAE3091BF8C32386A5DF6CCA /* Pods-SightHearingTests-acknowledgements.plist */,
+				49502129B13A677DA4791A9FAA03F065 /* Pods-SightHearingTests-dummy.m */,
+				80881633D532C0AA72F2C41F229370BF /* Pods-SightHearingTests-frameworks.sh */,
+				98DC75FE8F2B091DEE8E70F3385F97C6 /* Pods-SightHearingTests-resources.sh */,
+				BFF3892A471595CF39EC20CB8F9DA06B /* Pods-SightHearingTests-umbrella.h */,
+				04CA37761842DAE8B2184DC1FADA5C5D /* Pods-SightHearingTests.debug.xcconfig */,
+				3CEF2F7F4F34DFE1AAFC7F4087AE4ED5 /* Pods-SightHearingTests.release.xcconfig */,
+			);
+			name = "Pods-SightHearingTests";
+			path = "Target Support Files/Pods-SightHearingTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				45BE114B4C4E43D13AE9EC3CF000108D /* Products */,
+				26ABA5B800B4D384EC74BB391C46CB5A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		090F6F37F0E5FCCEFFEF8DB0F32D5C55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437AECC8F05232A0DB15FECC4283772B /* Pods-SightHearing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27AEA7CC59776A3AAD0EB532D3BE4FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B8FA53CBC7EACCEC38B5FB27ADAF9A /* Pods-SightHearingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01012A04C54291B260AC9BCFD03F384C /* Pods-SightHearing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D7B1FE8ED211DB673F9C8F7D0EA4CA /* Build configuration list for PBXNativeTarget "Pods-SightHearing" */;
+			buildPhases = (
+				99D2C540D6195E3267579D5E10E18F46 /* Sources */,
+				2CBB3D307C257978C3D7648EF198C909 /* Frameworks */,
+				090F6F37F0E5FCCEFFEF8DB0F32D5C55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SightHearing";
+			productName = "Pods-SightHearing";
+			productReference = 09B66DAB24BE9A260B4BBDBD785FD1A2 /* Pods_SightHearing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		721956E154FFEB6178B8091C15A2630B /* Pods-SightHearingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4007C22938880214238210ED09C3BD /* Build configuration list for PBXNativeTarget "Pods-SightHearingTests" */;
+			buildPhases = (
+				A0BBD1D2C6440404BCC5FB8F68A8672D /* Sources */,
+				D2ABDB8FD20493D9D200A7EF61DE9CB4 /* Frameworks */,
+				D27AEA7CC59776A3AAD0EB532D3BE4FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SightHearingTests";
+			productName = "Pods-SightHearingTests";
+			productReference = 1812DA0CD6383087C14D2B3B1C115AF2 /* Pods_SightHearingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 45BE114B4C4E43D13AE9EC3CF000108D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01012A04C54291B260AC9BCFD03F384C /* Pods-SightHearing */,
+				721956E154FFEB6178B8091C15A2630B /* Pods-SightHearingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D2C540D6195E3267579D5E10E18F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7848E81A8C06BA4F4047B7B2E35A2A5 /* Pods-SightHearing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BBD1D2C6440404BCC5FB8F68A8672D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E475CF32164D187817CF7EE55E7313 /* Pods-SightHearingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CFA3E724DE614130976C260075CCC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEF2F7F4F34DFE1AAFC7F4087AE4ED5 /* Pods-SightHearingTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SightHearingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SightHearingTests/Pods-SightHearingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SightHearingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45D7E951A52BE546CCEE9D76B0384A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD58991AFCB4502F270AACFE161BBB6 /* Pods-SightHearing.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SightHearing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SightHearing/Pods-SightHearing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SightHearing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C89613CE41218BC0884EC8DDE6A8CF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C93751626A53DEDCDA59B3B55101BC /* Pods-SightHearing.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SightHearing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SightHearing/Pods-SightHearing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SightHearing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAF923AF6194C9736ECB143A8EC81084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CA37761842DAE8B2184DC1FADA5C5D /* Pods-SightHearingTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SightHearingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SightHearingTests/Pods-SightHearingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SightHearingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D7B1FE8ED211DB673F9C8F7D0EA4CA /* Build configuration list for PBXNativeTarget "Pods-SightHearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D7E951A52BE546CCEE9D76B0384A6C /* Debug */,
+				C89613CE41218BC0884EC8DDE6A8CF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4007C22938880214238210ED09C3BD /* Build configuration list for PBXNativeTarget "Pods-SightHearingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF923AF6194C9736ECB143A8EC81084 /* Debug */,
+				3CFA3E724DE614130976C260075CCC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
