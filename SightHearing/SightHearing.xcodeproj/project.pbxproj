@@ -24,6 +24,9 @@
 		9A65F7E61F3AF67C009E80CB /* splashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7E51F3AF67C009E80CB /* splashView.xib */; };
 		9A65F7E81F3AF691009E80CB /* splashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E71F3AF691009E80CB /* splashView.swift */; };
 		9A65F7EA1F3AF6CC009E80CB /* splashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E91F3AF6CC009E80CB /* splashViewController.swift */; };
+		9A65F7ED1F3CF44A009E80CB /* homeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7EC1F3CF44A009E80CB /* homeView.xib */; };
+		9A65F7EF1F3CF482009E80CB /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7EE1F3CF482009E80CB /* homeView.swift */; };
+		9A65F7F11F3CF4E0009E80CB /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7F01F3CF4E0009E80CB /* homeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		9A65F7E51F3AF67C009E80CB /* splashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = splashView.xib; sourceTree = "<group>"; };
 		9A65F7E71F3AF691009E80CB /* splashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = splashView.swift; sourceTree = "<group>"; };
 		9A65F7E91F3AF6CC009E80CB /* splashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = splashViewController.swift; sourceTree = "<group>"; };
+		9A65F7EC1F3CF44A009E80CB /* homeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeView.xib; sourceTree = "<group>"; };
+		9A65F7EE1F3CF482009E80CB /* homeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		9A65F7F01F3CF4E0009E80CB /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 		9A65F7D31F3AF295009E80CB /* view */ = {
 			isa = PBXGroup;
 			children = (
+				9A65F7EB1F3CF41F009E80CB /* homeView */,
 				9A65F7E41F3AF664009E80CB /* splashView */,
 				9A65F7D71F3AF307009E80CB /* loginView */,
 				9A65F7D61F3AF300009E80CB /* signUpView */,
@@ -172,6 +179,7 @@
 				9A65F7E01F3AF44A009E80CB /* loginViewController.swift */,
 				9A65F7E21F3AF45E009E80CB /* signUpViewController.swift */,
 				9A65F7E91F3AF6CC009E80CB /* splashViewController.swift */,
+				9A65F7F01F3CF4E0009E80CB /* homeViewController.swift */,
 			);
 			name = viewController;
 			sourceTree = "<group>";
@@ -201,6 +209,15 @@
 				9A65F7E71F3AF691009E80CB /* splashView.swift */,
 			);
 			name = splashView;
+			sourceTree = "<group>";
+		};
+		9A65F7EB1F3CF41F009E80CB /* homeView */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7EC1F3CF44A009E80CB /* homeView.xib */,
+				9A65F7EE1F3CF482009E80CB /* homeView.swift */,
+			);
+			name = homeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A65F7BD1F3AF24C009E80CB /* LaunchScreen.storyboard in Resources */,
+				9A65F7ED1F3CF44A009E80CB /* homeView.xib in Resources */,
 				9A65F7BA1F3AF24C009E80CB /* Assets.xcassets in Resources */,
 				9A65F7D91F3AF38A009E80CB /* loginView.xib in Resources */,
 				9A65F7E61F3AF67C009E80CB /* splashView.xib in Resources */,
@@ -417,11 +435,13 @@
 				9A65F7DF1F3AF406009E80CB /* signUpView.swift in Sources */,
 				9A65F7B51F3AF24C009E80CB /* ViewController.swift in Sources */,
 				9A65F7E31F3AF45E009E80CB /* signUpViewController.swift in Sources */,
+				9A65F7F11F3CF4E0009E80CB /* homeViewController.swift in Sources */,
 				9A65F7E81F3AF691009E80CB /* splashView.swift in Sources */,
 				9A65F7DB1F3AF3A2009E80CB /* loginView.swift in Sources */,
 				9A65F7B31F3AF24C009E80CB /* AppDelegate.swift in Sources */,
 				9A65F7E11F3AF44A009E80CB /* loginViewController.swift in Sources */,
 				9A65F7EA1F3AF6CC009E80CB /* splashViewController.swift in Sources */,
+				9A65F7EF1F3CF482009E80CB /* homeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +651,7 @@
 				9A65F7CE1F3AF24C009E80CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A65F7CF1F3AF24C009E80CB /* Build configuration list for PBXNativeTarget "SightHearingTests" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +660,7 @@
 				9A65F7D11F3AF24C009E80CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
