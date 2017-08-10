@@ -27,6 +27,7 @@
 		9A65F7ED1F3CF44A009E80CB /* homeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7EC1F3CF44A009E80CB /* homeView.xib */; };
 		9A65F7EF1F3CF482009E80CB /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7EE1F3CF482009E80CB /* homeView.swift */; };
 		9A65F7F11F3CF4E0009E80CB /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7F01F3CF4E0009E80CB /* homeViewController.swift */; };
+		9A65F7F41F3CF4E0009E80CB /* loginPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7F31F3CF4E0009E80CB /* loginPromptView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		9A65F7EC1F3CF44A009E80CB /* homeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeView.xib; sourceTree = "<group>"; };
 		9A65F7EE1F3CF482009E80CB /* homeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 		9A65F7F01F3CF4E0009E80CB /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		9A65F7F31F3CF4E0009E80CB /* loginPromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginPromptView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		9A65F7D31F3AF295009E80CB /* view */ = {
 			isa = PBXGroup;
 			children = (
+				9A65F7F21F3CF4E0009E80CB /* loginPromptView */,
 				9A65F7EB1F3CF41F009E80CB /* homeView */,
 				9A65F7E41F3AF664009E80CB /* splashView */,
 				9A65F7D71F3AF307009E80CB /* loginView */,
@@ -218,6 +221,14 @@
 				9A65F7EE1F3CF482009E80CB /* homeView.swift */,
 			);
 			name = homeView;
+			sourceTree = "<group>";
+		};
+		9A65F7F21F3CF4E0009E80CB /* loginPromptView */ = {
+			isa = PBXGroup;
+			children = (
+				9A65F7F31F3CF4E0009E80CB /* loginPromptView.xib */,
+			);
+			name = loginPromptView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			files = (
 				9A65F7BD1F3AF24C009E80CB /* LaunchScreen.storyboard in Resources */,
 				9A65F7ED1F3CF44A009E80CB /* homeView.xib in Resources */,
+				9A65F7F41F3CF4E0009E80CB /* loginPromptView.xib in Resources */,
 				9A65F7BA1F3AF24C009E80CB /* Assets.xcassets in Resources */,
 				9A65F7D91F3AF38A009E80CB /* loginView.xib in Resources */,
 				9A65F7E61F3AF67C009E80CB /* splashView.xib in Resources */,
