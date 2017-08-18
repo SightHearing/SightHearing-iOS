@@ -9,5 +9,13 @@
 import Foundation
 import UIKit
 
-class loginPromptView : UIView {
+class LoginPromptView : UIView {
+    class func inflateView(_ frame:CGRect) -> LoginPromptView {
+        let view = UINib(nibName: "LoginPromptView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! LoginPromptView
+        view.frame = frame
+        return view
+    }
+    @IBAction func loginOnClick(_ sender: UIButton) {
+
+    }
 }

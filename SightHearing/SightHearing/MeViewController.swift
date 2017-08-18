@@ -9,11 +9,11 @@
 import UIKit
 
 class MeViewController : UIViewController {
-    var meView : MeView?
+    var meView : LoginPromptView?
     
     override func viewDidLoad(){
         let viewFrame = CGRect(x:0, y: 0, width: view.bounds.width, height: view.bounds.height)
-        meView = MeView.inflateView(viewFrame)
+        meView = LoginPromptView.inflateView(viewFrame)
         view.addSubview(meView!)
     }
 }

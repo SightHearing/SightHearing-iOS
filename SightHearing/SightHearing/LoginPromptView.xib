@@ -1,16 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoginPromptView" customModule="SightHearing" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01p-cC-bS5">
+                    <rect key="frame" x="86" y="303" width="222" height="44"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Login">
+                        <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="loginOnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="J4V-OC-1ma"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaR-jD-EgB">
+                    <rect key="frame" x="224" y="399" width="115" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Sign up">
+                        <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vUp-VR-KyE">
+                    <rect key="frame" x="37" y="407" width="179" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please login to use this awesome feature." textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zax-Bc-tTV">
+                    <rect key="frame" x="26" y="233" width="322" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kaR-jD-EgB" firstAttribute="top" secondItem="01p-cC-bS5" secondAttribute="bottom" constant="52" id="EMC-vC-dys"/>
+                <constraint firstItem="zax-Bc-tTV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="233" id="KMP-jW-a46"/>
+                <constraint firstItem="zax-Bc-tTV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="LkW-yB-6qq"/>
+                <constraint firstItem="kaR-jD-EgB" firstAttribute="leading" secondItem="vUp-VR-KyE" secondAttribute="trailing" constant="8" id="Rsu-TU-Sum"/>
+                <constraint firstAttribute="trailing" secondItem="zax-Bc-tTV" secondAttribute="trailing" constant="27" id="ZhC-WF-eOt"/>
+                <constraint firstItem="vUp-VR-KyE" firstAttribute="top" secondItem="01p-cC-bS5" secondAttribute="bottom" constant="60" id="bhr-e3-3MQ"/>
+                <constraint firstItem="01p-cC-bS5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fok-0k-BeN"/>
+                <constraint firstItem="01p-cC-bS5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="gOS-kO-Dwr"/>
+                <constraint firstItem="vUp-VR-KyE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="37" id="jCs-Df-5Rq"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
         </view>
     </objects>
 </document>
