@@ -1,5 +1,5 @@
 //
-//  homeViewController.swift
+//  HomeViewController.swift
 //  SightHearing
 //
 //  Created by Yonni Luu on 2017-08-10.
@@ -8,5 +8,5 @@
 
 import Foundation
 import UIKit
-class homeViewController : UIViewController {
+class HomeViewController : UIViewController {
 }

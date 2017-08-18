@@ -15,26 +15,25 @@
 		9A65F7BA1F3AF24C009E80CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7B91F3AF24C009E80CB /* Assets.xcassets */; };
 		9A65F7BD1F3AF24C009E80CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7BB1F3AF24C009E80CB /* LaunchScreen.storyboard */; };
 		9A65F7C81F3AF24C009E80CB /* SightHearingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7C71F3AF24C009E80CB /* SightHearingTests.swift */; };
-		9A65F7D91F3AF38A009E80CB /* loginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7D81F3AF38A009E80CB /* loginView.xib */; };
-		9A65F7DB1F3AF3A2009E80CB /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7DA1F3AF3A2009E80CB /* loginView.swift */; };
-		9A65F7DD1F3AF3F5009E80CB /* signUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7DC1F3AF3F5009E80CB /* signUpView.xib */; };
-		9A65F7DF1F3AF406009E80CB /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7DE1F3AF406009E80CB /* signUpView.swift */; };
-		9A65F7E11F3AF44A009E80CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E01F3AF44A009E80CB /* LoginViewController.swift */; };
+		9A65F7DD1F3AF3F5009E80CB /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7DC1F3AF3F5009E80CB /* SignUpView.xib */; };
+		9A65F7DF1F3AF406009E80CB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7DE1F3AF406009E80CB /* SignUpView.swift */; };
 		9A65F7E31F3AF45E009E80CB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E21F3AF45E009E80CB /* SignUpViewController.swift */; };
-		9A65F7E61F3AF67C009E80CB /* splashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7E51F3AF67C009E80CB /* splashView.xib */; };
-		9A65F7E81F3AF691009E80CB /* splashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E71F3AF691009E80CB /* splashView.swift */; };
+		9A65F7E61F3AF67C009E80CB /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7E51F3AF67C009E80CB /* SplashView.xib */; };
+		9A65F7E81F3AF691009E80CB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E71F3AF691009E80CB /* SplashView.swift */; };
 		9A65F7EA1F3AF6CC009E80CB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7E91F3AF6CC009E80CB /* SplashViewController.swift */; };
 		9A65F7ED1F3CF44A009E80CB /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7EC1F3CF44A009E80CB /* HomeView.xib */; };
 		9A65F7EF1F3CF482009E80CB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7EE1F3CF482009E80CB /* HomeView.swift */; };
 		9A65F7F11F3CF4E0009E80CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7F01F3CF4E0009E80CB /* HomeViewController.swift */; };
 		9A65F7F41F3CF4E0009E80CB /* LoginPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A65F7F31F3CF4E0009E80CB /* LoginPromptView.xib */; };
 		9A65F7F61F3CF4E0009E80CB /* LoginPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7F51F3CF4E0009E80CB /* LoginPromptView.swift */; };
-		9A65F7F81F3CF4E0009E80CB /* LoginPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7F71F3CF4E0009E80CB /* LoginPromptViewController.swift */; };
 		9A65F7FA1F3CF4E0009E80CB /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F7F91F3CF4E0009E80CB /* MeViewController.swift */; };
 		9AC29B191F3CEE7400325121 /* Pods_SightHearing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C824AFE2A6D45DCB0E1A4E /* Pods_SightHearing.framework */; };
 		9AC29B1A1F3CEE7400325121 /* Pods_SightHearing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44C824AFE2A6D45DCB0E1A4E /* Pods_SightHearing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9AC29B1E1F3CF17300325121 /* MeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC29B1D1F3CF17300325121 /* MeView.xib */; };
 		9AC29B201F3CF19000325121 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC29B1F1F3CF19000325121 /* MeView.swift */; };
+		9AC29B241F46B83E00325121 /* LoginPromptViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC29B231F46B83E00325121 /* LoginPromptViewDelegate.swift */; };
+		9AC29B271F46C88600325121 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC29B261F46C88600325121 /* LoginView.swift */; };
+		9AC29B291F46C8E700325121 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC29B281F46C8E700325121 /* LoginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,24 +77,23 @@
 		9A65F7C31F3AF24C009E80CB /* SightHearingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightHearingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A65F7C71F3AF24C009E80CB /* SightHearingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightHearingTests.swift; sourceTree = "<group>"; };
 		9A65F7C91F3AF24C009E80CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A65F7D81F3AF38A009E80CB /* loginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginView.xib; sourceTree = "<group>"; };
-		9A65F7DA1F3AF3A2009E80CB /* loginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
-		9A65F7DC1F3AF3F5009E80CB /* signUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = signUpView.xib; sourceTree = "<group>"; };
-		9A65F7DE1F3AF406009E80CB /* signUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
-		9A65F7E01F3AF44A009E80CB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9A65F7DC1F3AF3F5009E80CB /* SignUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpView.xib; sourceTree = "<group>"; };
+		9A65F7DE1F3AF406009E80CB /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		9A65F7E21F3AF45E009E80CB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		9A65F7E51F3AF67C009E80CB /* splashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = splashView.xib; sourceTree = "<group>"; };
-		9A65F7E71F3AF691009E80CB /* splashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = splashView.swift; sourceTree = "<group>"; };
+		9A65F7E51F3AF67C009E80CB /* SplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		9A65F7E71F3AF691009E80CB /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		9A65F7E91F3AF6CC009E80CB /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		9A65F7EC1F3CF44A009E80CB /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
 		9A65F7EE1F3CF482009E80CB /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9A65F7F01F3CF4E0009E80CB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9A65F7F31F3CF4E0009E80CB /* LoginPromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginPromptView.xib; sourceTree = "<group>"; };
 		9A65F7F51F3CF4E0009E80CB /* LoginPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPromptView.swift; sourceTree = "<group>"; };
-		9A65F7F71F3CF4E0009E80CB /* LoginPromptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPromptViewController.swift; sourceTree = "<group>"; };
 		9A65F7F91F3CF4E0009E80CB /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		9AC29B1D1F3CF17300325121 /* MeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeView.xib; sourceTree = "<group>"; };
 		9AC29B1F1F3CF19000325121 /* MeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		9AC29B231F46B83E00325121 /* LoginPromptViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPromptViewDelegate.swift; sourceTree = "<group>"; };
+		9AC29B261F46C88600325121 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9AC29B281F46C8E700325121 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,11 +192,11 @@
 		9A65F7D31F3AF295009E80CB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9AC29B251F46C85100325121 /* LoginView */,
 				9AC29B1C1F3CF15300325121 /* MeView */,
 				9A65F7F21F3CF4E0009E80CB /* LoginPromptView */,
 				9A65F7EB1F3CF41F009E80CB /* HomeView */,
 				9A65F7E41F3AF664009E80CB /* SplashView */,
-				9A65F7D71F3AF307009E80CB /* LoginView */,
 				9A65F7D61F3AF300009E80CB /* SignUpView */,
 			);
 			name = View;
@@ -207,11 +205,9 @@
 		9A65F7D51F3AF2AE009E80CB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9A65F7E01F3AF44A009E80CB /* LoginViewController.swift */,
 				9A65F7E21F3AF45E009E80CB /* SignUpViewController.swift */,
 				9A65F7E91F3AF6CC009E80CB /* SplashViewController.swift */,
 				9A65F7F01F3CF4E0009E80CB /* HomeViewController.swift */,
-				9A65F7F71F3CF4E0009E80CB /* LoginPromptViewController.swift */,
 				9A65F7F91F3CF4E0009E80CB /* MeViewController.swift */,
 			);
 			name = ViewController;
@@ -220,26 +216,17 @@
 		9A65F7D61F3AF300009E80CB /* SignUpView */ = {
 			isa = PBXGroup;
 			children = (
-				9A65F7DC1F3AF3F5009E80CB /* signUpView.xib */,
-				9A65F7DE1F3AF406009E80CB /* signUpView.swift */,
+				9A65F7DC1F3AF3F5009E80CB /* SignUpView.xib */,
+				9A65F7DE1F3AF406009E80CB /* SignUpView.swift */,
 			);
 			name = SignUpView;
-			sourceTree = "<group>";
-		};
-		9A65F7D71F3AF307009E80CB /* LoginView */ = {
-			isa = PBXGroup;
-			children = (
-				9A65F7D81F3AF38A009E80CB /* loginView.xib */,
-				9A65F7DA1F3AF3A2009E80CB /* loginView.swift */,
-			);
-			name = LoginView;
 			sourceTree = "<group>";
 		};
 		9A65F7E41F3AF664009E80CB /* SplashView */ = {
 			isa = PBXGroup;
 			children = (
-				9A65F7E51F3AF67C009E80CB /* splashView.xib */,
-				9A65F7E71F3AF691009E80CB /* splashView.swift */,
+				9A65F7E51F3AF67C009E80CB /* SplashView.xib */,
+				9A65F7E71F3AF691009E80CB /* SplashView.swift */,
 			);
 			name = SplashView;
 			sourceTree = "<group>";
@@ -258,6 +245,7 @@
 			children = (
 				9A65F7F31F3CF4E0009E80CB /* LoginPromptView.xib */,
 				9A65F7F51F3CF4E0009E80CB /* LoginPromptView.swift */,
+				9AC29B231F46B83E00325121 /* LoginPromptViewDelegate.swift */,
 			);
 			name = LoginPromptView;
 			sourceTree = "<group>";
@@ -269,6 +257,15 @@
 				9AC29B1F1F3CF19000325121 /* MeView.swift */,
 			);
 			name = MeView;
+			sourceTree = "<group>";
+		};
+		9AC29B251F46C85100325121 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				9AC29B281F46C8E700325121 /* LoginView.xib */,
+				9AC29B261F46C88600325121 /* LoginView.swift */,
+			);
+			name = LoginView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,9 +363,9 @@
 				9A65F7ED1F3CF44A009E80CB /* HomeView.xib in Resources */,
 				9A65F7F41F3CF4E0009E80CB /* LoginPromptView.xib in Resources */,
 				9A65F7BA1F3AF24C009E80CB /* Assets.xcassets in Resources */,
-				9A65F7D91F3AF38A009E80CB /* loginView.xib in Resources */,
-				9A65F7E61F3AF67C009E80CB /* splashView.xib in Resources */,
-				9A65F7DD1F3AF3F5009E80CB /* signUpView.xib in Resources */,
+				9A65F7E61F3AF67C009E80CB /* SplashView.xib in Resources */,
+				9A65F7DD1F3AF3F5009E80CB /* SignUpView.xib in Resources */,
+				9AC29B291F46C8E700325121 /* LoginView.xib in Resources */,
 				9A65F7B81F3AF24C009E80CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,17 +484,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC29B201F3CF19000325121 /* MeView.swift in Sources */,
-				9A65F7DF1F3AF406009E80CB /* signUpView.swift in Sources */,
+				9A65F7DF1F3AF406009E80CB /* SignUpView.swift in Sources */,
 				9A65F7B51F3AF24C009E80CB /* ViewController.swift in Sources */,
 				9A65F7FA1F3CF4E0009E80CB /* MeViewController.swift in Sources */,
 				9A65F7E31F3AF45E009E80CB /* SignUpViewController.swift in Sources */,
 				9A65F7F11F3CF4E0009E80CB /* HomeViewController.swift in Sources */,
-				9A65F7E81F3AF691009E80CB /* splashView.swift in Sources */,
+				9A65F7E81F3AF691009E80CB /* SplashView.swift in Sources */,
 				9A65F7F61F3CF4E0009E80CB /* LoginPromptView.swift in Sources */,
-				9A65F7DB1F3AF3A2009E80CB /* loginView.swift in Sources */,
+				9AC29B271F46C88600325121 /* LoginView.swift in Sources */,
+				9AC29B241F46B83E00325121 /* LoginPromptViewDelegate.swift in Sources */,
 				9A65F7B31F3AF24C009E80CB /* AppDelegate.swift in Sources */,
-				9A65F7F81F3CF4E0009E80CB /* LoginPromptViewController.swift in Sources */,
-				9A65F7E11F3AF44A009E80CB /* LoginViewController.swift in Sources */,
 				9A65F7EA1F3AF6CC009E80CB /* SplashViewController.swift in Sources */,
 				9A65F7EF1F3CF482009E80CB /* HomeView.swift in Sources */,
 			);

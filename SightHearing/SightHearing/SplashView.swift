@@ -1,5 +1,5 @@
 //
-//  loginView.swift
+//  splashView.swift
 //  SightHearing
 //
 //  Created by Yonni Luu on 2017-08-09.
@@ -9,5 +9,5 @@
 import Foundation
 import UIKit
 
-class loginView : UIView {
+class SplashView : UIView {
 }

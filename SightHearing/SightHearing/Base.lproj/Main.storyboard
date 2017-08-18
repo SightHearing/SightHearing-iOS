@@ -30,7 +30,7 @@
         <!--me-->
         <scene sceneID="F44-oq-wWZ">
             <objects>
-                <viewController id="lZe-co-3Pp" customClass="MeViewController" customModule="SightHearing" sceneMemberID="viewController">
+                <viewController id="lZe-co-3Pp" customClass="MeViewController" customModule="SightHearing" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bKB-FA-tZZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Gg7-Kx-NMX"/>
