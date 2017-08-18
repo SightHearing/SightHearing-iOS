@@ -192,11 +192,11 @@
 		9A65F7D31F3AF295009E80CB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9AC29B251F46C85100325121 /* LoginView */,
 				9AC29B1C1F3CF15300325121 /* MeView */,
 				9A65F7F21F3CF4E0009E80CB /* LoginPromptView */,
 				9A65F7EB1F3CF41F009E80CB /* HomeView */,
 				9A65F7E41F3AF664009E80CB /* SplashView */,
+				9AC29B251F46C85100325121 /* LoginView */,
 				9A65F7D61F3AF300009E80CB /* SignUpView */,
 			);
 			name = View;

@@ -9,5 +9,11 @@
 import Foundation
 import UIKit
 
-class SignUpview : UIView {
+class SignUpView : UIView {
+    
+    class func inflateView(_ frame:CGRect) -> SignUpView {
+        let view = UINib(nibName: "SignUpView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! SignUpView
+        view.frame = frame
+        return view
+    }
 }

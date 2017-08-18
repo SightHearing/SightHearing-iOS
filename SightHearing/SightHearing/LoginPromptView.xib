@@ -36,6 +36,9 @@
                         <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                         <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="signUpOnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="L3e-o7-fHz"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vUp-VR-KyE">
                     <rect key="frame" x="37" y="407" width="179" height="21"/>

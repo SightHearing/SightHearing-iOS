@@ -25,4 +25,7 @@ class LoginPromptView : UIView {
     @IBAction func loginOnClick(_ sender: UIButton) {
         promptDelegate?.loginOnClick()
     }
+    @IBAction func signUpOnClick(_ sender: UIButton) {
+        promptDelegate?.signUpOnClick()
+    }
 }

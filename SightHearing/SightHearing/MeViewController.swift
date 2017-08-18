@@ -13,6 +13,7 @@ class MeViewController : UIViewController {
     // the views that this controller can inflate
     var meView : LoginPromptView?
     var loginView : LoginView?
+    var signUpView : SignUpView?
     
     // execute this right when this view controller loads
     override func viewDidLoad(){
@@ -39,7 +40,9 @@ extension MeViewController : LoginPromptViewDelegate {
     
     // direct user to sign up page with button is clicked
     func signUpOnClick() {
-        // TODO
+        let viewFrame = CGRect(x:0, y: 0, width: view.bounds.width, height: view.bounds.height)
+        signUpView = SignUpView.inflateView(viewFrame)
+        view.addSubview(signUpView!)
     }
 }
 
